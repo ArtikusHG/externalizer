@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Externalizer</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Internal Legal text options</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.artikus.externalizerprefs</string>
+			<key>key</key>
+			<string>kInternalLegalEnabledApple</string>
+			<key>label</key>
+			<string>Apple Internal Legal text</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.artikus.externalizerprefs</string>
+			<key>key</key>
+			<string>kInternalLegalEnabledCustom</string>
+			<key>label</key>
+			<string>Custom Internal Legal text</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+    	<string>PSEditTextCell</string>
+			<key>placeholder</key>
+			<string>Custom Internal Legal text</string>
+			<key>defaults</key>
+			<string>com.artikus.externalizerprefs</string>
+			<key>key</key>
+			<string>kInternalLegalText</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Provisional Enrollment text options</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+    	<string>PSEditTextCell</string>
+			<key>placeholder</key>
+			<string>Provisional Enrollment text</string>
+			<key>defaults</key>
+			<string>com.artikus.externalizerprefs</string>
+			<key>key</key>
+			<string>kProvisionalEnrollmentText</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Supervision text options</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+    	<string>PSEditTextCell</string>
+			<key>placeholder</key>
+			<string>Supervision text</string>
+			<key>defaults</key>
+			<string>com.artikus.externalizerprefs</string>
+			<key>key</key>
+			<string>kSupervisionText</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Device Information text options</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+    	<string>PSEditTextCell</string>
+			<key>placeholder</key>
+			<string>Device Information text</string>
+			<key>defaults</key>
+			<string>com.artikus.externalizerprefs</string>
+			<key>key</key>
+			<string>kDeviceInfoText</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Respring to apply (sometimes more than one respring is required)</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>reloadSpringboard</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>externalizerprefs</string>
+</dict>
+</plist>

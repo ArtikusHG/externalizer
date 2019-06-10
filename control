@@ -1,0 +1,9 @@
+Package: com.artikus.externalizer
+Name: Externalizer
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Apple's internal "Confidential & Proprietary" lockscreen label with customization options
+Maintainer: ArtikusHG
+Author: ArtikusHG
+Section: Tweaks
