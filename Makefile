@@ -1,8 +1,6 @@
-target += iphone:12.1.4:10.0
-FINALPACKAGE = 1
-DEBUG = 0
+target+= iphone:12.1.2:10.0
 
-ARCHS = armv7s arm64 arm64e
+ARCHS = arm64
 
 THEOS_DEVICE_IP = 192.168.0.87
 
