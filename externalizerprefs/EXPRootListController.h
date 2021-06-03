@@ -1,5 +1,4 @@
-#import <Preferences/PSListController.h>
+#include <Preferences/PSListController.h>
 
 @interface EXPRootListController : PSListController
-
 @end

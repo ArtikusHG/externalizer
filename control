@@ -1,9 +1,9 @@
 Package: com.artikus.externalizer
 Name: Externalizer
-Depends: mobilesubstrate
-Version: 1.0.0
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
+Version: 1.1
 Architecture: iphoneos-arm
-Description: Apple's internal "Confidential & Proprietary" lockscreen label with customization options
+Description: Apple's internal legal "Confidential & Proprietary" lockscreen label for non-internal illegal devices
 Maintainer: ArtikusHG
 Author: ArtikusHG
 Section: Tweaks

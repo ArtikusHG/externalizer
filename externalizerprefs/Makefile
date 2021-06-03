@@ -1,12 +1,11 @@
-ARCHS = arm64
-
 include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = externalizerprefs
 externalizerprefs_FILES = EXPRootListController.m
 externalizerprefs_INSTALL_PATH = /Library/PreferenceBundles
 externalizerprefs_FRAMEWORKS = UIKit
-externalizerprefs_PRIVATE_FRAMEWORKS = Preferences
+externalizerprefs_PRIVATE_FRAMEWORKS = Preferences AppSupport
+externalizerprefs_CFLAGS = -fobjc-arc -Wall
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 
